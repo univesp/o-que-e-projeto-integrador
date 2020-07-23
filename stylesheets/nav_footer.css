@@ -1,0 +1,73 @@
+/* HEADER */
+
+nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+/* Botão Pular para Conteúdo Principal */
+nav .logo .pularNavegacao {
+  background-color: #03304F;
+  color: #fff;
+}
+nav .logo .pularNavegacao:focus {
+  border-radius: 0;
+}
+
+/* Caixa do Logotipo + Botão de compartilhamento */
+nav .logo img,
+nav .nav-link  {
+  background-color: transparent;
+}
+
+/* Botão de compartilhamento */
+nav .nav-link {
+  padding-top: 1.3rem;
+  color: #03304F;
+}
+nav .nav-link:focus,
+nav .nav-link:hover,
+nav .nav-link[aria-expanded="true"] {
+  color: #03304F;
+}
+
+/* FOOTER */
+/* Cores de fonte + contornos */
+/* footer, footer .sharing i {
+  color: red;
+}
+footer .cred-rea>div:not(:first-child) {
+  border-left-color: red;
+}
+footer .aval-rea .btn-secondary {
+  border-color: red;
+}
+@media (max-width: 1199.98px) {
+  footer .sharing i {
+    background-color: red;
+    color:  white;
+  }
+} */
+footer .aval-rea .btn-secondary:hover,
+footer .aval-rea .btn-secondary:focus {}
+
+/* Cor do ícone de compartilhamento dentro dos círculos. Ajustar para mesma cor do fundo quando utilizado background diferente do padrão ou transparente. */
+/* @media (max-width: 1199.98px) {
+  footer .sharing i {
+    color:  red;
+  } */
+
+/* MAIN */
+main {
+  /* padding-top: 3rem; */
+  /* padding-bottom: 3rem; */
+}
+@media only screen and (max-width: 992px) {
+  main {
+    /* padding-top: 2rem;
+    padding-bottom: 2rem; */
+  }
+}
