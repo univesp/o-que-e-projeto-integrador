@@ -75,7 +75,7 @@ $.fn.isInViewport = function() {
   return elementTop < viewportBottom
 };
 
-// Executa animações quando elemento es'ta inteiro na tela
+// Executa animações quando elemento está inteiro na tela
 $.fn.isFullInViewport = function() {
   // topo da viewport
   var viewportTop = $(window).scrollTop();
@@ -164,7 +164,7 @@ function animacoesSM(){
 
 // Muda as animações dependendo do tamanho inicial da tela
 function myFunction(x) {
-  if (x.matches) { // If media query matches    
+  if (x.matches) { // If media query matches
     animacoesSM();
   } else {
     animacoes();

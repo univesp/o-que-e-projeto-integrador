@@ -17,9 +17,7 @@
   <!-- Arquivos Bootstrap -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
   <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
-
-  <!-- Ícones por Font Awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  
   <!-- Ícones por Material Icons -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
@@ -46,16 +44,8 @@
 
 <body class="d-flex flex-column">
 
-  <!-- Utilizar essa DIV caso o REA não se adapte a todos os tamanhos de tela -->
-  <!-- <div class="esconder-tela-pequena"> -->
 
   <!-- Menu -->
-  <!--///////////////////////////////////////////////////////////////
-  Classe para nav
-  - padrão => header estático
-  - class="header-dinamico" => header possui posição fixa e é mostrado apenas quando a página está no topo (necessário ajustar padding ou margin superior e inferior do main).
-  //////////////////////////////////////////////////////////////////-->
-  <!-- <nav class="header-dinamico"> -->
   <nav>
     <div class="container"  data-scroll-speed="5">
       <!-- Logo -->
@@ -387,19 +377,6 @@
 
   </main>
 
-  <!-- RODAPÉ -->
-  <!--//////////////////////////////////////////////////////
-  Classes prontas p/ footer (podem ser combinadas):
-  padrão => texto e contornos em cinza
-  class = "black" => texto e contornos em preto
-  class = "negativo" => texto e contornos em branco, sobre fundo escuro
-  class = "transparente" => fundo transparente (necessário ajustar cor dos ícones de compartilhamento nos círculos, para bater com a cor de fundo)
-  /////////////////////////////////////////////////////////-->
-  <!-- <footer class="black"> -->
-  <!-- <footer class="negativo"> -->
-  <!-- <footer class="transparente"> -->
-  <!-- <footer class="transparente black"> -->
-  <!-- <footer class="transparente negativo"> -->
   <footer>
     <div class="container d-flex justify-content-between">
 
@@ -408,7 +385,7 @@
           <div>Recurso Educacional Aberto (REA) desenvolvido pela <a href="https://univesp.br/" target="blank">Univesp</a>, disponível sob licença <a href="http://apps.univesp.br/common/license_MIT_2020.txt" target="_blank">MIT</a>.
           Você pode utilizá-lo, compartilhá-lo e modificá-lo.</div>
           <div><button class="btn btn-link" data-toggle="modal" data-target="#creditos">Créditos</button></div>
-          <div><a href="#" target="_blank" aria-label="GitHub" style="white-space:nowrap;">GitHub <i class="fab fa-github"></i></a></div>
+          <div><a href="https://github.com/univesp/o-que-e-projeto-integrador" target="_blank" aria-label="GitHub" style="white-space:nowrap;">GitHub <i class="fab fa-github"></i></a></div>
           <div>Compartilhe: <div class="sharing"></div></div>
 
         <!-- Descomente em caso de adaptação do REA -->
@@ -431,32 +408,6 @@
     </div>
   </footer>
   <!-- Fim do rodapé -->
-
-  <!-- Fim da div .esconder-tela-pequena
-  Utilizar essa div caso o REA não se adapte a todos os formatos de tela -->
-  <!-- </div> -->
-
-  <!-- //////////////////////////////////////////////////////////
-  AVISO =+960px
-  Utilizar caso o REA possua limitações quanto aos tamanhos de tela
-  Caso contrário, deletar
-  ///////////////////////////////////////////////////////////////-->
-  <!-- <div class= "container d-lg-none text-center">
-    <div class="container">
-      <a href="https://univesp.br/" target="_blank">
-        <img src="https://apps.univesp.br/common/logo-univesp-positivo.svg" alt="Logo da Univesp" height="47px" width="135px" class='img-responsive center-block' style="margin-top:4rem">
-      </a>
-    </div>
-    <img src='https://apps.univesp.br/common/aviso-tela.gif' alt="Computador Animado" height="117px" width="160px" class='img-responsive center-block' style="margin-top:3rem">
-    <div style="margin-top:.5rem">
-      <p>
-        <font style=font-family:"Barlow" color="#3b78d1" 'text-center' size="10rem"><b>OPS!</b></font>
-      </p>
-      <p>
-        <font style=font-family:"Verdana" "text-center" size="3rem">Visualize este recurso em um computador, em janela com largura mínima de 992px.</font>
-      </p>
-    </div>
-  </div> -->
 
   <!-- CRÉDITOS -->
   <div class="modal fade" id="creditos" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
@@ -527,8 +478,6 @@
   <!-- Custom JS -->
   <script type="text/javascript" src="javascripts/events.js"></script>
 
-  <!-- MathJax. Descomente se for utilizar. Caso contrário, remova. -->
-  <!-- <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script> -->
 
   <!-- Analytics. Remova em caso de reutilização do REA -->
   <script src="https://apps.univesp.br/common/analytics.js"></script>
