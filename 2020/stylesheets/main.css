@@ -312,8 +312,6 @@ h1.grifo span:nth-of-type(3) {
 /* /////////////////////////////////////////////////////////////////// */
 /* COMPARAÇÃO */
 /* /////////////////////////////////////////////////////////////////// */
-.comparacao {}
-
 .comparacao .fonte-20 {
   width: 42rem;
   max-width: 80%;
@@ -614,9 +612,6 @@ table th:nth-of-type(3) .tabela-bg {
   margin-top: 4rem;
   margin-bottom: 5rem;
 }
-
-.projeto-pq h2 mark {}
-
 .itens-projeto {
   max-width: 70rem;
 }
@@ -677,10 +672,7 @@ table th:nth-of-type(3) .tabela-bg {
   }
   .icones-projeto img {
     width: 4.2rem;
-  }
-  .item-projeto {
-    /* padding: 0; */
-  }
+  }  
   .desc-projeto {
     max-width: 11rem;
   }
@@ -696,10 +688,7 @@ table th:nth-of-type(3) .tabela-bg {
   .icones-projeto img {
     width: 3.9rem;
     margin-bottom: -.3rem;
-}
-  .item-projeto {
-    /* padding: 0; */
-  }
+}  
   .desc-projeto {
     max-width: 11rem;
   }
@@ -749,11 +738,6 @@ table th:nth-of-type(3) .tabela-bg {
   margin-top: 2rem;
   width: 14rem;
 }
-
-.integrador-pq .explicacao>div {}
-
-.integrador-pq .fonte-20 {}
-
 .itens-integrador {
   display: flex;
   justify-content: space-between;
@@ -769,8 +753,6 @@ table th:nth-of-type(3) .tabela-bg {
   position: relative;
   margin-top: -1rem;
 }
-
-.integracao .grafico {}
 
 .grafico-nomes {
   display: flex;
@@ -822,9 +804,6 @@ table th:nth-of-type(3) .tabela-bg {
   width: 24rem;
   top: 0;
 }
-
-
-.integracao .circulo>div {}
 
 
 @media (max-width: 991.98px) {
@@ -1132,10 +1111,6 @@ table th:nth-of-type(3) .tabela-bg {
   font-size: 3.7rem;
 }
 
-.na-univesp h2 mark {
-  /* padding: 0.8rem 0.3rem; */
-}
-
 .na-univesp .fonte-32 {
   width: 50rem;
   max-width: 100%;
@@ -1403,16 +1378,9 @@ ul.lista-custom {
 /* //////////////////////////////////////////////////////////////////// */
 /* CONCLUSÃO */
 /* //////////////////////////////////////////////////////////////////// */
-
-.container {
-}
 .conclusao {
   padding-top: 4rem;
   padding-bottom: 3rem;
-}
-
-.conclusao>div {
-  /* position: relative; */
 }
 
 .conclusao .fonte-24 {
@@ -1549,10 +1517,6 @@ ul.lista-custom {
   cursor: pointer;
   padding: 0;
   /* font-family: "Open Sans", sans-serif; */
-}
-.btn-div:focus {
-  /* outline: none;
-  text-decoration: underline;   */
 }
 .btn-div:hover>div, .btn-div:hover p{
   text-decoration: underline;
